@@ -145,4 +145,49 @@ Using meaningful names like `total_price` is better than `tp` because it improve
 
 ---
 
-## 2.10. Statem
+## 2.10. Statements and Expressions
+### Research:
+- **Expression**: A combination of values and operators that evaluates to a value.
+- **Statement**: A complete unit of execution (e.g., `print(x)`).
+
+### Exercise:
+```python
+x = 5 + 3
+print(x)
+```
+
+---
+
+## 2.11. Order of Operations
+### Fun Fact:
+Python follows **PEMDAS** (Parentheses, Exponents, Multiplication/Division, Addition/Subtraction).
+
+### Exercise:
+```python
+result = 2 + 3 * 4 ** 2 / 8
+print(result)
+```
+
+---
+
+## 2.12. Reassignment
+### Exercise:
+```python
+count = 10
+print(count)
+count = 20
+print(count)
+```
+
+---
+
+## 2.13. Updating Variables
+### Exercise:
+```python
+score = 100
+score += 10
+print(score)
+score -= 5
+print(score)
+```
+
