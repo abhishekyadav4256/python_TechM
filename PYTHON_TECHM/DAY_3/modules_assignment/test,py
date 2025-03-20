@@ -1,0 +1,5 @@
+import my_package
+
+print(my_package.greet("Abhishek"))
+print(my_package.divide(10, 2))
+print(my_package.divide(10, 0))
