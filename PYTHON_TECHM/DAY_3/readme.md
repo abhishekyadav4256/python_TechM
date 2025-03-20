@@ -193,3 +193,50 @@ import sys
 sys.path.append("/custom/path/to/modules")
 import mymodule  # Now this will work if `mymodule.py` exists in that path
 ```
+
+## 8. Mocking Modules for Testing
+### Problem:
+Write a unit test for a function that imports a module using `unittest.mock`.
+
+### Solution:
+Use `mock.patch()` to replace the actual function with a mock object during the test. For example:
+```python
+from unittest import mock
+import math
+with mock.patch('math.sqrt', return_value=100):
+    print(math.sqrt(25))  # Should print 100
+```
+
+---
+
+## 9. Import Side Effects
+### Problem:
+Investigate modules that execute code immediately upon import.
+
+### Solution:
+Create a module that prints a message upon being imported:
+```python
+# side_effect_module.py
+print("This runs on import!")
+```
+This demonstrates how some modules execute code as soon as they are imported.
+
+---
+
+## 10. Investigate Python’s Import Caching
+### Problem:
+Explore `sys.modules` to understand how Python caches imports and how to reload modules.
+
+### Solution:
+Use `sys.modules` to check the cache and `importlib.reload()` to reload a module:
+```python
+import sys
+import importlib
+import mymodule
+print(sys.modules['mymodule'])  # Check if module is cached
+importlib.reload(mymodule)  # Reload the module
+```
+This prevents stale imports and allows re-executing module code without restarting Python.
+
+---
+
