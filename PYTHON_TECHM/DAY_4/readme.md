@@ -124,7 +124,7 @@ l.extend([3, 4])  # [1, 2, 3, 4]
 sentence = "Learn Python, step by step!"
 words = sentence.split()
 print(words)  # Output: ['Learn', 'Python,', 'step', 'by', 'step!']
-
+```
 
 
 ## 14. Join a List into a Single String
@@ -133,6 +133,7 @@ print(words)  # Output: ['Learn', 'Python,', 'step', 'by', 'step!']
 words = ['Python', 'is', 'fun']
 print(" ".join(words))  # Output: Python is fun
 ```
+
 
 ### 15. Find the Index of the First Occurrence of 2 in a List
 
