@@ -1,0 +1,6 @@
+# Log File Analyzer
+ERROR: Unable to connect to the database.
+ERROR: User authentication failed.
+WARNING: Disk space running low.
+ERROR: File not found: config.yml
+INFO: Server started successfully.

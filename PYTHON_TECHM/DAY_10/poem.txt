@@ -1,0 +1,6 @@
+Here are the contents for the file: /DAY_10/data/input/poem.txt
+
+Roses are red,  
+Violets are blue,  
+Sugar is sweet,  
+And so are you.  

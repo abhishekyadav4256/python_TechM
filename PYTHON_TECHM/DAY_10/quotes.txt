@@ -1,0 +1,7 @@
+Here are the contents for the file: /DAY_10/data/input/quotes.txt
+
+"To be, or not to be, that is the question.\n"
+"All that glitters is not gold.\n"
+"The only thing we have to fear is fear itself.\n"
+"In the end, we will remember not the words of our enemies, but the silence of our friends.\n"
+"To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.\n"
